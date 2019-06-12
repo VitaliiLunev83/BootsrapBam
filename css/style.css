@@ -6,7 +6,9 @@ display: block;
 padding: 0;
 margin: 0;
 }
-
+body{
+    font-family: 'Open Sans Semibold';
+}
 
 .menu-bar{
     color: #212121;
@@ -16,7 +18,7 @@ margin: 0;
     margin-left: 37px;
 }
 .menu__item a {
-    font-family: 'Open Sans Semibold';
+
     font-size: 20px;
     color: #212121;
 }
@@ -24,4 +26,42 @@ margin: 0;
 .menu__item a:hover{
     text-decoration: none;
     color: #868686;
+}
+
+/*header*/
+
+.header > div {
+    background-position: 0 100%;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 180px 0;
+    background-image: url(../img/header.png);
+}
+.header__title{
+    font-size: 55px;
+
+}
+.header__text{
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.button{
+    padding: 10px 25px;
+    margin: 0px 10px;
+    color: white;
+    transition: 0.3s;
+}
+.button_empty{
+    background: transparent;
+    border:2px solid white;
+}
+.button_full{
+    background: #00897b;
+    border:2px solid #00897b;
+}
+.button_empty:hover,
+.button_full:hover{
+    background: #085f56;
 }
