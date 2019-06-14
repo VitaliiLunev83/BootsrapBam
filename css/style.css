@@ -7,7 +7,7 @@ padding: 0;
 margin: 0;
 }
 body{
-    font-family: 'Open Sans Semibold';
+    font-family: 'Open Sans';
 }
 
 .menu-bar{
@@ -18,7 +18,7 @@ body{
     margin-left: 37px;
 }
 .menu__item a {
-
+    font-family: 'Open Sans Semibold';
     font-size: 20px;
     color: #212121;
 }
@@ -64,4 +64,28 @@ body{
 .button_empty:hover,
 .button_full:hover{
     background: #085f56;
+}
+/*About*/
+.about{
+    padding-top: 120px;
+    padding-bottom:125px;
+    background: white;
+    color: black;
+    text-align: center;
+}
+.about__title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.about__text{
+    color: #212121;
+    font-size: 15px;
+    margin-bottom: 110px;
+    margin-top: 40px;
+}
+.about_h3{
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
