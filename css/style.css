@@ -388,3 +388,43 @@ div[filter]:hover .text {
     color: black;
     border: 2px solid #00897b;
 }
+
+
+/*footer*/
+
+.footer {
+    padding-top: 165px;
+    padding-bottom: 125px;
+    background: #e4fdf9;
+    color: #fff;
+    text-align: center;
+    background-image: url(/img/footer.png);
+    background-position: no-repeat;
+    background-size: cover;
+}
+
+.footer p {
+    color: #fff;
+}
+
+.fa-map-marker-alt,
+.fa-phone-alt,
+.fa-envelope {
+    font-size: 62px;
+    color: #fff;
+}
+
+.circle {
+    background: #3949ab;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 35px;
+}
+
+.circle+p {
+    font-size: 18px;
+}
