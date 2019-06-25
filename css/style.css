@@ -428,3 +428,48 @@ div[filter]:hover .text {
 .circle+p {
     font-size: 18px;
 }
+
+.footer input,
+textarea {
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.footer textarea {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form {
+    margin-top: 70px;
+}
+
+.footer button {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #212121;
+    padding: 20px 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    outline: none;
+}
+
+.footer button:hover {
+    transition: 0.3s ease;
+    background-color: #3949ab;
+    color: #fff;
+}
+
+.rules {
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #212121;
+}
