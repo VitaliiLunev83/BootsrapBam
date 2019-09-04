@@ -398,7 +398,6 @@ div[filter]:hover .text {
     background: #e4fdf9;
     color: #fff;
     text-align: center;
-    background-image: url(/img/footer.png);
     background-position: no-repeat;
     background-size: cover;
 }
